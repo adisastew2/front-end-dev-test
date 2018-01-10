@@ -1,3 +1,7 @@
 h1 {
   font-size: 35px
 }
+#logo {
+  height: 60px;
+  width: 210px;
+}
