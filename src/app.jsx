@@ -3,6 +3,7 @@ import {render} from 'react-dom';
 
 import Header from './components/header.jsx';
 import Carousel from './components/carousel.jsx';
+import Divider from './components/divider.jsx'
 
 class App extends React.Component {
   constructor(props) {
@@ -15,6 +16,7 @@ class App extends React.Component {
       <div>
         <Header />
         <Carousel />
+        <Divider />
       </div>
     ) 
   }
