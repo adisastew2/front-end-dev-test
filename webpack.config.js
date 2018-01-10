@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-	entry: './src/app.js',
+	entry: './src/app.jsx',
 
 	output: {
 		path: path.resolve(__dirname),
@@ -21,6 +21,13 @@ module.exports = {
       {
         test: /\.html$/,
         loader: "raw-loader"
+      },
+			{
+        test: /\.jsx?/,
+        loader: 'babel-loader',
+				query: {
+					presets: ["es2015", "react"]
+				}
       },
 			{
 				test: /\.(css)$/,
