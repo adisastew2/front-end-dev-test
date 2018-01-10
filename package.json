@@ -34,7 +34,10 @@
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "jquery": "^3.2.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-slick": "^0.16.0",
+    "slick-carousel": "^1.8.1"
   }
 }
