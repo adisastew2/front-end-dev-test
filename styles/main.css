@@ -8,11 +8,11 @@ h1 {
 
 #divider {
   height: 250px;
-  /*position: relative;*/
+  position: relative;
   background-image: url('../assets/slanted-gradient-background.svg');
 }
 
-#divider div {
+#divider span {
   position: absolute;
   bottom: 0;
   right: 0;
