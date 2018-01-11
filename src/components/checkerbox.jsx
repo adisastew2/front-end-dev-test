@@ -1,27 +1,28 @@
 import React from 'react';
+import {Row, Col} from 'react-bootstrap';
+
 
 function Checkerbox(){
   return (
     <div>
-
-      <div>
-        <h1>Lorem Ipsum</h1>
-        <span>
+      <h1>Lorem Ipsum</h1>
+      <Row>      
+        <Col md={6}>
           <h2>Lorem Ipsum</h2>
           <h3>Lorem Ipsum</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </span>
-        <span><img src='../../assets/hands.jpg'/></span>
-      </div>
+        </Col>
+        <Col md={6}><img className='checkImg animated slideInRight' src='../../assets/hands.jpg'/></Col>
+      </Row>
 
-      <div>
-        <span><img src='../../assets/data.jpg'/></span>
-        <span>
+      <Row>
+        <Col md={6}><img className='checkImg animated slideInLeft' src='../../assets/data.jpg'/></Col>
+        <Col md={6}>
           <h2>Lorem Ipsum</h2>
           <h3>Lorem Ipsum</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </span>   
-      </div>
+        </Col> 
+      </Row>
 
     </div>
   );
