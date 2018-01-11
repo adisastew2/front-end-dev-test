@@ -4,7 +4,7 @@ import {Row, Col} from 'react-bootstrap';
 function Stats(){
   return (
     <div>
-      <h1>Lorem Ipsum</h1>
+      <h1 className='bigHead'><span className='bigHeadL'>Lorem</span> <span className='bigHeadR'>Ipsum</span></h1>
       <Row>
         <Col md={3}></Col>
         <Col md={3}>
