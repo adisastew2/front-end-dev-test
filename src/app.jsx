@@ -25,10 +25,8 @@ class App extends React.Component {
         <Carousel />
         <Pages />
         <Divider />
-        <CheckerBox />
         <Stats />
-        <IntroCarousel />
-        <Social />
+        <CheckerBox />
       </Grid>
     ) 
   }
