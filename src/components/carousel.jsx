@@ -1,6 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
 
+import {Row} from 'react-bootstrap';
+
 
 class Carousel extends React.Component {
   render() {
@@ -9,14 +11,26 @@ class Carousel extends React.Component {
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      autoplay: true
     };
     return (
-      <Slider {...settings}>
-        <div><h3>1</h3></div>
-        <div><h3>2</h3></div>
-        <div><h3>3</h3></div>
-      </Slider>
+      <Row id='slider'>
+        <div className = 'overlayText'>
+          <h1>Lorem Ipsum Lorem Ipsum</h1>
+          <div>
+            <span><button>button</button></span>
+            <img id='envelope' src='../../assets/envelope-icon.svg' />
+          </div>
+        </div>
+        
+        <Slider className='slide' {...settings}>
+          <div><img className='slide' src = '../../assets/hero-img.jpg'/></div>
+          <div><img className='slide' src = '../../assets/iStock.jpg'/></div>
+          <div><img className='slide' src = '../../assets/iStock2.jpg'/></div>
+        </Slider>
+      </Row>
+      
     );
   }
 }
