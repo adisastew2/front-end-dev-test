@@ -92,6 +92,12 @@ header {
   text-align: center;
 }
 
+.percent {
+  font: 'Roboto-Bold';
+  font-size: 55px;
+  letter-spacing: 2px;
+}
+
 .bigHead {
   font-size: 28px;
   text-align: center;
