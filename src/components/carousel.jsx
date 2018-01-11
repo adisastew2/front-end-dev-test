@@ -17,24 +17,25 @@ class Carousel extends React.Component {
     return (
       <Row id='slider'>
         <div className = 'overlayText'>
-          <h1>Lorem Ipsum Lorem Ipsum</h1>
+          <h1 id='heroText'>Lorem Ipsum Lorem Ipsum</h1>
           <div>
-            <span><button>button</button></span>
+            <span><button className='button'>button</button></span>
             <a href="#text"><img id='envelope' src='../../assets/envelope-icon.svg' /></a>
           </div>
         </div>
         {/*modal*/}
-        <div class="modalbox" id="text">
-          <div class="box">
-            <a class="close" href="#">X</a>
-            <p class="title">Title Here</p>
-            <div class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur tristique placerat.</p>
+        <div className="modalbox" id="text">
+          <div className="box">
+            <a className="close" href="#">X</a>
+            <p className="title">Lorem Ipsum</p>
+            <div className="content">
+
+              <a href="mailto:adisa.stewart1988@gmail.com">email me</a>
             </div>
           </div>
         </div>
 
-        <Slider className='slide' {...settings}>
+        <Slider {...settings}>
           <div><img className='slide' src = '../../assets/hero-img.jpg'/></div>
           <div><img className='slide' src = '../../assets/iStock.jpg'/></div>
           <div><img className='slide' src = '../../assets/iStock2.jpg'/></div>
