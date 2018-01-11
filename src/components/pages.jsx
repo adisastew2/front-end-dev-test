@@ -8,15 +8,15 @@ function Pages(){
     <div id='pages'>
       <Row>
         <Col md={3}></Col>
-        <Page />
-        <Page />
+        <Page txt='my resume in word' doc='../../assets/software.docx'/>
+        <Page txt='my resume in pdf' doc='../../assets/software.pdf'/>
         <Col md={3}></Col>
       </Row>
 
       <Row>
         <Col md={3}></Col>
-        <Page />
-        <Page />
+        <Page txt='mov of me breaking a board' doc='../../assets/boardBreak.mov'/>
+        <Page txt='if you are a marvel fan' doc='../../assets/blackPanther.jpg'/>
         <Col md={3}></Col>
       </Row>
     </div>
