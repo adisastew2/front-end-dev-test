@@ -27,6 +27,10 @@ header {
   position: absolute;
   bottom: 30px;
   right: 0;
+  font: 'Roboto';
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
 }
 
 .slide {
@@ -86,6 +90,33 @@ header {
 
 #stats {
   text-align: center;
+}
+
+.bigHead {
+  font-size: 28px;
+  text-align: center;
+}
+
+.bigHeadL {
+  font: 'Roboto-Bold';
+  color: #f36819;
+}
+
+.bigHeadR {
+  font: 'Roboto';
+  color: #283647;
+}
+
+.midHead {
+  font: 'Roboto';
+  font-size: 28px;
+  color: #f36819;
+}
+
+.smlHead {
+  font: 'Roboto';
+  font-size: 20px;
+  color: #f7931d;
 }
 
 /*modal style*/
