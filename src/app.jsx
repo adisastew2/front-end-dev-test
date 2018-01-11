@@ -6,6 +6,7 @@ import Carousel from './components/carousel.jsx';
 import Divider from './components/divider.jsx';
 import Pages from './components/pages.jsx';
 import CheckerBox from './components/checkerbox.jsx'
+import Stats from './components/stats.jsx'
 
 class App extends React.Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class App extends React.Component {
         <Pages />
         <Divider />
         <CheckerBox />
+        <Stats />
       </div>
     ) 
   }
