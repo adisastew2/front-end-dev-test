@@ -15,15 +15,15 @@ function Stats(){
       </Row>
       <Row id='stats'>
         <Col md={4}>
-          <h1>240%</h1>
+          <h1 className='percent'>240%</h1>
           <p>Lorem ipsum dolor sit amet Lorem ipsum dolor ipsum dolor</p>
         </Col>
         <Col md={4}>
-          <h1>105%</h1>
+          <h1 className='percent'>105%</h1>
           <p>Lorem ipsum dolor sit amet Lorem ipsum dolor ipsum dolor</p>
         </Col>
         <Col md={4}>
-          <h1>159%</h1>
+          <h1 className='percent'>159%</h1>
           <p>Lorem ipsum dolor sit amet Lorem ipsum dolor ipsum dolor</p>
         </Col>
       </Row>
